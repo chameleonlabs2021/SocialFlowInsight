@@ -1,0 +1,9 @@
+{
+	"name": "adf-rahul-demo-202405-01",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "04b65e72-fb1a-4ae6-a724-eef3e01d69e5",
+		"tenantId": "ec10f2a8-2b2b-4690-b80f-b355148016f5"
+	}
+}

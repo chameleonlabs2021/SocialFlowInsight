@@ -1,0 +1,23 @@
+{
+	"name": "BronzeJson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@concat('countries_', formatDateTime(utcnow(), 'yyyy-MM-dd'), '.json')\r\n",
+					"type": "Expression"
+				},
+				"container": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
